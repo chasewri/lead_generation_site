@@ -10,10 +10,6 @@
     --white: #FFFFFF;
 }
 /* END root syles --------------------------------------------------------------- */
-/* css animate ------------------------------------------------------------------ */
-animate__animated.animate__fadeInRight {
-    animate-duration: 50000;
-}
 /* element styling here plz ----------------------------------------------------- */
 body {
     font-family: 'Montserrat', sans-serif;
