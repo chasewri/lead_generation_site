@@ -1,0 +1,228 @@
+/* root styles here ------------------------------------------------------------ */
+:root {
+    --pk-green: #c2d745;
+    --md-green: #8bd351;
+    --blue: #316ef5;
+    --gray: #F8F8F8;
+    --black: #2A2A2E;
+    --nav-gray: #7E7D80;
+    --first-gray: #F8F8F8;
+    --white: #FFFFFF;
+}
+/* END root syles --------------------------------------------------------------- */
+/* css animate ------------------------------------------------------------------ */
+animate__animated.animate__fadeInRight {
+    animate-duration: 50000;
+}
+/* element styling here plz ----------------------------------------------------- */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--white);
+
+}
+nav {
+    color: var(--white);
+    height: 6vh;
+}
+a:hover {
+    color: var(--pk-green);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--white);
+    padding: 0 2vw;
+    
+}
+nav a:hover {
+    color: var(--pk-green);
+}
+
+.nav-style {
+    background-color: var(--nav-gray);
+    align-items: center;
+}
+/* END of element styles ------------------------------------------------------------ */
+/* START class styles ----------------------------------------------------------------- */
+/* START nav styles ----------------------------------------------------------------- */
+
+.logo {
+    padding-left: 10px;
+    margin-left: 10px;
+    height: inherit;
+    width: 25%;
+}
+.nav-logo {
+    max-width: 30%;
+    margin-left: 1vw;
+}
+.no-hover {
+    pointer-events: none;
+}
+/* START hero styles ----------------------------------------------------------------- */
+
+.hero-img {
+    background: url(../img/HEADER\ IMAGE_CITY\ CROPPED.png);
+
+}
+.hero-img h1 {
+    color: var(--white);
+}
+.head-txt {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 25px 0;
+    background-color: var(--first-gray);
+    color: var(--black);
+
+}
+.head-txt h2 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.head-txt p {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    text-align: justify; 
+}
+.first-section {
+    max-width: 66%;
+}
+/* START body section styles ----------------------------------------------------------------- */
+
+.main {
+    margin: 30px 0;
+    background-color: var(--white);
+    height: 50vh;
+}
+.main h2 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 30px;
+
+}
+.main p {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.sideby {
+    margin: 10vh 0;
+    padding: 5vh 0;
+}
+
+/* START form styles ----------------------------------------------------------------- */
+.call-to {
+    background-image: url(../img/form_background.png);
+    clear: both;
+    height: auto;
+    min-height: 70vh;
+    margin: 10vh auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.call-to h2 {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+}
+.call-to h3 {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 4vh;
+}
+.input-form {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: var(--white);
+    border-radius: 6px;
+    color: var(--white);
+    text-align: center;
+    margin: 8px auto;
+}
+
+.input-form::placeholder {
+    color: var(--white);
+}
+input:focus {
+    border: 3px solid var(--blue) !important;
+}
+select {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: var(--white);
+    border-radius: 6px;
+    text-align: center;
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    line-height: 1.5;
+    height: 2.5em;
+    color: var(--white);
+    display: block;
+    position: relative;
+    font-size: 1em;
+    margin: 20px auto;
+}
+option {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.align {
+    align-items: center;
+}
+.submit-button {
+    align-self: center; 
+    background-color: var(--blue);
+    color: var(--white);
+    margin-top: 20px;
+    margin-bottom: 10vh;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-size: 1em;
+}
+#margin-here {
+    margin-bottom: 10vh;
+}
+/* footer ----------------------------- */
+footer {
+    margin: 10vh 0;   
+}
+.footer-logo {
+    max-width: 30%;
+}
+.address p {
+    text-align: right;
+    padding: 0;
+    margin: 0 auto;
+}
+footer a {
+    text-decoration: none;
+    color: var(--black);
+    padding-bottom: 1.75vh;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer a:hover {
+    color: var(--blue);
+}
+
+
+@media (max-width: 1160px) {
+    .logo {
+        background-image: url(../img/white_logo.svg);
+        min-height: 50px;
+        background-size: contain;
+        width: 60vw;
+        text-align: center;
+        background-position-x: center;
+        margin: 0 auto;
+    }    
+}
