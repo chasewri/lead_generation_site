@@ -7,16 +7,27 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/bulma.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/main.css">
+        <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
         <script defer src="./js/noframework.waypoints.min.js"></script>
         <script defer src="./js/main.js"></script>
     </head>
     <body>
         <nav class="is-vcentered navbar nav-style" role="navigation" aria-label="main navigation">
             <div class="nav-brand is-vcentered nav-logo">
-                <img class="navbar-item" src="./img/white_logo.svg" alt="">
+                <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                    
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+                <img class="navbar-item" src="./img/white_logo.svg" alt="white logo">
+            
             </div>
-            <div class="navbar-menu">
+            
+            
+            <div id="navMenu" class="navbar-menu">
                 <div class="navbar-start"></div>
                 <div class="navbar-end is-vcentered">
                     <div class="navbar-item">
@@ -31,7 +42,9 @@
                     <div class="navbar-item">
                         <a href="#">RESOURCES</a>
                     </div>
+                    
                 </div>
+             
             </div>
         </nav>
         <section class="hero hero-img is-medium">
@@ -178,10 +191,17 @@
                     </div>
                 </div>
             </div>
+            <!-- hidden div for button push display -->
+            <div id="on-button" class="columns is-vcentered is-centered">
+                <div class="column is-8">
+                    <h2>Thank you for submitting your information!</h2>
+                    <h3>We'll contact you soon</h3>
+                </div>
+            </div>
             <footer>
                 <div class="container columns">
                     <div class="column is-10 is-offset-1 footer-logo">
-                        <img src="./img/gray_logo.svg" alt="">
+                        <img src="./img/gray_logo.svg" alt="gray logo">
                     </div>
                 </div>
                 <div class="container columns">
