@@ -17,9 +17,11 @@ body {
     background-color: var(--white);
 
 }
+
 div.navbar-item {
     background-color: var(--nav-gray);
 }
+
 nav {
     color: var(--white);
     height: 6vh;
@@ -35,20 +37,24 @@ nav a {
     padding: 0 2vw;
 
 }
+
 .navbar-burger {
     color: var(--white);
     padding-left: 1vw;
     padding-right: 100%;
-    
+
 }
+
 .navbar-burger span {
     min-width: 35px;
     height: 2px;
     line-height: 2em;
 }
+
 .navbar-dropdown {
     background-color: var(--nav-gray);
 }
+
 nav a:hover {
     color: var(--pk-green);
 }
@@ -234,12 +240,15 @@ input:focus {
     color: var(--white);
     outline: none;
 }
+
 .custom-select option {
     font-weight: normal;
 }
+
 .custom-select option {
     font-weight: normal;
 }
+
 select option {
     background-color: darkgray;
 
@@ -294,6 +303,7 @@ footer a {
 footer a:hover {
     color: var(--blue);
 }
+
 /* display none div */
 #on-button {
     background-color: rgba(0, 0, 0, .5);
@@ -307,7 +317,8 @@ footer a:hover {
     left: 0;
     top: 0;
 }
-#on-button > div {
+
+#on-button>div {
     background-color: var(--white);
     text-align: center;
 }
@@ -323,6 +334,7 @@ footer a:hover {
         background-position-x: center;
         margin: 0 auto;
     }
+
     footer {
         text-align: center;
         margin: 0 auto;
